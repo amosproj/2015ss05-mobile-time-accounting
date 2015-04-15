@@ -1,0 +1,15 @@
+[submodule "amos-ss15-proj5_android"]
+	path = amos-ss15-proj5_android
+	url = https://github.com/corchwll/amos-ss15-proj5_android.git
+[submodule "amos-ss15-proj5_ios"]
+	path = amos-ss15-proj5_ios
+	url = https://github.com/corchwll/amos-ss15-proj5_ios.git
+[submodule "amos-ss15-proj5_html5"]
+	path = amos-ss15-proj5_html5
+	url = https://github.com/corchwll/amos-ss15-proj5_html5.git
+[submodule "amos-ss15-proj5_phonegap"]
+	path = amos-ss15-proj5_phonegap
+	url = https://github.com/corchwll/amos-ss15-proj5_phonegap.git
+[submodule "amos-ss15-proj5_windows"]
+	path = amos-ss15-proj5_windows
+	url = https://github.com/corchwll/amos-ss15-proj5_windows.git
