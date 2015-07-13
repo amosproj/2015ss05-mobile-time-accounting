@@ -1,0 +1,87 @@
+% THIS IS SIGPROC-SP.TEX - VERSION 3.1
+% WORKS WITH V3.2SP OF ACM_PROC_ARTICLE-SP.CLS
+% APRIL 2009
+%
+% It is an example file showing how to use the 'acm_proc_article-sp.cls' V3.2SP
+% LaTeX2e document class file for Conference Proceedings submissions.
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V3.2SP) *DOES NOT* produce:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) Page numbering
+% ---------------------------------------------------------------------------------------------------------------
+% It is an example which *does* use the .bib file (from which the .bbl file
+% is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission,
+% you need to 'insert'  your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% Questions regarding SIGS should be sent to
+% Adrienne Griscti ---> griscti@acm.org
+%
+% Questions/suggestions regarding the guidelines, .tex and .cls files, etc. to
+% Gerald Murray ---> murray@hq.acm.org
+%
+% For tracking purposes - this is V3.1SP - APRIL 2009
+
+\documentclass{acm_proc_article-sp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning,fit,shapes,shapes.multipart, calc,shapes.geometric}
+\usepackage{varwidth}
+\usepackage{listings}
+
+\clubpenalty = 10000
+\widowpenalty = 10000
+
+\def\sharedaffiliation{%
+\end{tabular}
+\begin{tabular}{c}}
+
+\begin{document}
+
+\title{Hybrid or native - what to choose?}
+
+\numberofauthors{6}
+\author{
+\alignauthor Matthias Altstadt\\
+      \email{matthias.altstadt@fau.de}
+\alignauthor Tobias Fertig\\
+      \email{tobias.fertig@fau.de}
+\alignauthor Christian Happ\\
+      \email{christian.happ@fau.de}
+\and
+\alignauthor Daniel Knogl\\
+      \email{daniel.knogl@fau.de}
+\alignauthor Daniel Lohse\\
+      \email{daniel.lohse@fau.de}
+\alignauthor Ulrich Mackert\\
+      \email{ulrich.mackert@fau.de}
+%
+\sharedaffiliation
+\affaddr{Department of Computer Science, Friedrich-Alexander-Universit\"at Erlangen-N\"urnberg}\\
+\affaddr{AMOS SS15 Team 5}
+}
+
+\date{14 July 2015}
+
+\maketitle
+%\begin{abstract}
+
+%\end{abstract}
+
+\input{sections/10_Introduction} 
+\input{sections/20_Android}
+\input{sections/30_IOS}
+\input{sections/40_Windows}
+\input{sections/50_HTML5}
+\input{sections/60_Phonegap}
+\input{sections/70_Comparison}
+\input{sections/80_Fazit}
+
+%\bibliographystyle{abbrv}
+%\bibliography{amos5}
+\end{document}
